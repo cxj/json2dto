@@ -21,9 +21,9 @@ tool will create a zip file.
 Prefer to use the tool locally? You can install `json2dto` via composer and generate files directly from json files.
 
 ```bash
-composer global require atymic/json2dto # Install Globally
+composer global require cxj/json2dto # Install Globally
 
-composer require atymic/json2dto --dev # Install locally in a project
+composer require cxj/json2dto --dev # Install locally in a project
 ```
 
 ### Usage
