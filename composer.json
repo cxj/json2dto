@@ -1,4 +1,8 @@
 {
+    "name": "cxj/json2dto",
+    "type": "project",
+    "license": "gpl3",
+
     "scripts": {
         "update-docs": "sed -n -e '/## CLI Tool/,$p' README.md > frontend/src/docs/cli.md",
         "release": [
