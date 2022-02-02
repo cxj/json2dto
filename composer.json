@@ -1,22 +1,27 @@
 {
-    "name": "atymic/json2dto",
+    "name": "cxj/json2dto",
     "license": "GPL-3.0",
     "description": "Convert JSON files to Spatie DTO objects",
     "keywords": ["spatie", "laravel", "dto", "converter", "json"],
     "homepage": "https://json2dto.atymic.dev",
     "type": "project",
     "support": {
-        "source": "https://github.com/atymic/json2dto"
+        "source": "https://github.com/cxj/json2dto"
     },
     "authors": [
         {
             "name": "atymic",
             "email": "atymicq@gmail.com",
             "homepage": "https://atymic.dev"
+        },
+        {
+            "name": "Chris Johnson",
+            "email": "cxjohnson@gmail.com",
+            "homepage": "https://github.com/cxj/json2dto"
         }
     ],
     "require": {
-        "php": "^7.2 || ^8.0",
+        "php": "^7.4 || ^8.0",
         "ext-json": "*",
         "illuminate/support": "~5.5 || ~6.0 || ~7.0 || ~8.0",
         "nette/php-generator": "^3.3",
