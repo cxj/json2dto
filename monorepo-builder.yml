@@ -1,3 +1,0 @@
-parameters:
-  directories_to_repositories:
-    json2dto: 'git@github.com:cxj/json2dto.git'
