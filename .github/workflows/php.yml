@@ -21,11 +21,11 @@ jobs:
         extension: xdebug
         coverage: xdebug
     - name: Install dependencies
-      working-directory: ./json2dto
+      working-directory: .
       run: composer install --no-interaction --prefer-dist --no-suggest
     - name: Lint composer.json
-      working-directory: ./json2dto
+      working-directory: .
       run: composer validate
     - name: Run Tests
-      working-directory: ./json2dto
+      working-directory: .
       run: composer test:ci
