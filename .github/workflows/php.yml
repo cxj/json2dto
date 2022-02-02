@@ -15,7 +15,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@main
     - name: Setup PHP
-      uses: shivammathur/setup-php@v1
+      uses: shivammathur/setup-php@v2
       with:
         php-version: ${{ matrix.php-versions }}
         extension: xdebug
